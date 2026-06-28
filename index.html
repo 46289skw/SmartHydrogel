@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Hydrogel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Smart Hydrogel Wound Scanner</h1>
+
+    <input type="file" id="imageInput" accept="image/*" capture="environment">
+
+    <br><br>
+
+    <img id="preview" width="300">
+
+    <br><br>
+
+    <button onclick="analyze()">สแกนแผล</button>
+
+    <canvas id="canvas" style="display:none;"></canvas>
+
+    <h2 id="result"></h2>
+
+    <hr>
+    <p>
+        เว็บไซต์นี้ใช้สำหรับการประเมินเบื้องต้นจากการเปลี่ยนสีของแผ่นไฮโดรเจลไม่ใช่การวินิจฉัยทางการแพทย์
+    </p>
+
+    <script src="js/script.js"></script>
+    </p>
+</body>
+
+</html>
